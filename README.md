@@ -1,6 +1,6 @@
 # Employee Leave Management — MCP Server
 
-### [Check out GenAI and System Design videos](https://www.youtube.com/@CodingJist)
+### 📌 [Check out GenAI and System Design videos](https://www.youtube.com/@CodingJist)
 
 An MCP (Model Context Protocol) server built with **FastMCP** that connects to a **Supabase** PostgreSQL database and lets Claude Desktop manage employee leave — checking balances, applying for leave, approvals, history, and more.
 
@@ -121,7 +121,7 @@ uv run python server.py
       "command": "uv",
       "args": [
         "--directory",
-        "/absolute/path/to/mcp/database_supabase",
+        "/absolute/path/to/project_root",
         "run",
         "python",
         "server.py"
@@ -165,7 +165,7 @@ Create or edit `.vscode/mcp.json`:
       "command": "uv",
       "args": [
         "--directory",
-        "/absolute/path/to/mcp/database_supabase",
+        "/absolute/path/to/project_root",
         "run",
         "python",
         "server.py"
