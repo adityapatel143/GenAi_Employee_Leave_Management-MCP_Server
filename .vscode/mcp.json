@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "employee-leave": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/adityapatel/Teaching/Demo/mcp_supabase",
+        "run",
+        "python",
+        "server.py"
+      ]
+    }
+  }
+}
